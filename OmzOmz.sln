@@ -1,8 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmzOmz.AppHost", "OmzOmz.AppHost\OmzOmz.AppHost.csproj", "{9CA4E8D1-8A37-4FF1-B936-066A11D9D88B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OmzOmz.ServiceDefaults", "OmzOmz.ServiceDefaults\OmzOmz.ServiceDefaults.csproj", "{6059C0CF-151D-437A-B829-F36560A30027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CA4E8D1-8A37-4FF1-B936-066A11D9D88B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CA4E8D1-8A37-4FF1-B936-066A11D9D88B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CA4E8D1-8A37-4FF1-B936-066A11D9D88B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CA4E8D1-8A37-4FF1-B936-066A11D9D88B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6059C0CF-151D-437A-B829-F36560A30027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6059C0CF-151D-437A-B829-F36560A30027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6059C0CF-151D-437A-B829-F36560A30027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6059C0CF-151D-437A-B829-F36560A30027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
