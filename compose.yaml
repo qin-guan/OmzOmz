@@ -1,0 +1,6 @@
+﻿services:
+  omzomz.webapi:
+    image: omzomz.webapi
+    build:
+      context: .
+      dockerfile: OmzOmz.WebApi/Dockerfile
